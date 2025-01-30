@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    gap: 10px;
+    height: 330px;
+    width: 330px;
+}
+
+.square-outer {
+    border: 1px black solid;
+    height: 100px;
+    width: 100px;
+}
+
+.square-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
